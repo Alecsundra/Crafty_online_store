@@ -6,7 +6,7 @@ const db = new Prisma({
     typeDefs:'src/generated/prisma.graphql',
     //acces to prisma db
     endpoint: process.env.PRISMA_ENDPOINT,
-    secret: process.env.secret.PRISMA_SECRET,
+    secret: process.env.PRISMA_SECRET,
     debug: false
 });
 
