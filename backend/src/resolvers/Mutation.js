@@ -1,3 +1,4 @@
-const mutations = {};
+//when push and put data
+const Mutations = {};
 
-module.exports = mutations;
+module.exports = Mutations;
