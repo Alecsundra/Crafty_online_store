@@ -553,7 +553,7 @@ var Pagination = function Pagination(props) {
         lineNumber: 29
       },
       __self: this
-    }, "Sick Fits! \u2014 Page ", page, " of ", pages)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    }, "Crafty Store! \u2014 Page ", page, " of ", pages)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
       prefetch: true,
       href: {
         pathname: 'items',
