@@ -5,17 +5,18 @@ import Header from '../components/Header';
 import Meta from '../components/Meta';
 
 const theme = {
-    red: '#913535',
-    black: '#283148',
-    grey: '#bbbbbb',
-    lightgrey: '#99b898',
-    offWhite: '#EDEDED',
+    red: '#f73859',
+    black: '#111d5e',
+    grey: '#fe346e',
+    lightgrey: '#fe346e',
+    offWhite: '#ffcb74',
     maxWidth: '1000px',
     bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
   };
   
   const StyledPage = styled.div`
-    background: #e9eec9;
+    background: rgb(207,234,235);
+    background: radial-gradient(circle, rgba(207,234,235,1) 0%, rgba(246,231,199,1) 100%);
     color: ${props => props.theme.black};
   `;
   
@@ -26,8 +27,7 @@ const theme = {
   `;
 injectGlobal`
 @font-face {
-  font-family: 'radnika_next';
-  src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -43,7 +43,7 @@ body {
   margin: 0;
   font-size: 1.5rem;
   line-height: 2;
-  font-family: 'radnika_next';
+  font-family: 'Open Sans Condensed', sans-serif;;
 }
 a {
   text-decoration: none;
