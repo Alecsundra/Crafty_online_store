@@ -16,18 +16,23 @@ Router.onRouteChangeStart = () => {
     NProgress.done();
   };
 const Logo = styled.h1`
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-left: 2rem;
+  font-weight: 500;
   position: relative;
+  /* height: 10rem; */
+  /* background:${props => props.theme.red}; */
   z-index: 2;
-  transform: skew(-20deg);
+  transform: skew(-10deg);
   a {
-    padding: 0.5rem 1rem;
-    background: ${props => props.theme.red};
-    color: #e9eec9;
-    text-transform: uppercase;
+    padding: 1rem 1rem;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+    background: rgb(218,199,231);
+    background: radial-gradient(circle, rgba(218,199,231,1) 0%, rgba(227,155,155,1) 50%, rgba(242,211,167,1) 100%);
+    color: ${props => props.theme.black};
+    /* text-transform: uppercase; */
     text-decoration: none;
-    border-radius: 2rem;
+    border-radius: 50%;
   }
   @media (max-width: 1300px) {
     margin: 0;
@@ -37,7 +42,7 @@ const Logo = styled.h1`
 
 const StyledHeader = styled.header`
   .bar {
-    border-bottom: 10px solid ${props => props.theme.black};
+    border-bottom: 5px solid ${props => props.theme.black};
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
@@ -59,7 +64,7 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/">
-          <a>Crafty Moon</a>
+          <a>CraftyMoon</a>
         </Link>
       </Logo>
       <Nav />

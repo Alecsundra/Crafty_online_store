@@ -135,14 +135,14 @@ next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeError = function
 
 var Logo = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.h1.withConfig({
   displayName: "Header__Logo",
-  componentId: "sc-2cpreo-0"
-})(["font-size:4rem;margin-left:2rem;position:relative;z-index:2;transform:skew(-20deg);a{padding:0.5rem 1rem;background:", ";color:#e9eec9;text-transform:uppercase;text-decoration:none;border-radius:2rem;}@media (max-width:1300px){margin:0;text-align:center;}"], function (props) {
-  return props.theme.red;
+  componentId: "sc-28yzly-0"
+})(["font-size:3.5rem;margin-left:2rem;font-weight:500;position:relative;z-index:2;transform:skew(-10deg);a{padding:1rem 1rem;text-shadow:3px 3px 0 rgba(0,0,0,0.2);background:rgb(218,199,231);background:radial-gradient(circle,rgba(218,199,231,1) 0%,rgba(227,155,155,1) 50%,rgba(242,211,167,1) 100%);color:", ";text-decoration:none;border-radius:50%;}@media (max-width:1300px){margin:0;text-align:center;}"], function (props) {
+  return props.theme.black;
 });
 var StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header.withConfig({
   displayName: "Header__StyledHeader",
-  componentId: "sc-2cpreo-1"
-})([".bar{border-bottom:10px solid ", ";display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media (max-width:1300px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{display:grid;grid-template-columns:1fr auto;border-bottom:1px solid ", ";}"], function (props) {
+  componentId: "sc-28yzly-1"
+})([".bar{border-bottom:5px solid ", ";display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media (max-width:1300px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{display:grid;grid-template-columns:1fr auto;border-bottom:1px solid ", ";}"], function (props) {
   return props.theme.black;
 }, function (props) {
   return props.theme.lightgrey;
@@ -152,58 +152,58 @@ var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledHeader, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Logo, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 67
     },
     __self: this
-  }, "Crafty Moon"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "CraftyMoon"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 70
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "sub-bar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 73
     },
     __self: this
   }, "Search")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 75
     },
     __self: this
   }, "Cart"));
@@ -416,7 +416,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n@font-face {\n  font-family: 'radnika_next';\n  src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');\n  font-weight: normal;\n  font-style: normal;\n}\nhtml {\n  box-sizing: border-box;\n  font-size: 10px;\n}\n*, *:before, *:after {\n  box-sizing: inherit;\n}\nbody {\n  padding: 0;\n  margin: 0;\n  font-size: 1.5rem;\n  line-height: 2;\n  font-family: 'radnika_next';\n}\na {\n  text-decoration: none;\n  color: ", ";\n}\n"]);
+  var data = _taggedTemplateLiteral(["\n@font-face {\n  font-family: 'Open Sans Condensed', sans-serif;\n  font-weight: normal;\n  font-style: normal;\n}\nhtml {\n  box-sizing: border-box;\n  font-size: 10px;\n}\n*, *:before, *:after {\n  box-sizing: inherit;\n}\nbody {\n  padding: 0;\n  margin: 0;\n  font-size: 1.5rem;\n  line-height: 2;\n  font-family: 'Open Sans Condensed', sans-serif;;\n}\na {\n  text-decoration: none;\n  color: ", ";\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -432,23 +432,23 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var theme = {
-  red: '#913535',
-  black: '#283148',
-  grey: '#bbbbbb',
-  lightgrey: '#99b898',
-  offWhite: '#EDEDED',
+  red: '#f73859',
+  black: '#111d5e',
+  grey: '#fe346e',
+  lightgrey: '#fe346e',
+  offWhite: '#ffcb74',
   maxWidth: '1000px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)'
 };
 var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Page__StyledPage",
-  componentId: "sc-4u7a64-0"
-})(["background:#e9eec9;color:", ";"], function (props) {
+  componentId: "euphdo-0"
+})(["background:rgb(207,234,235);background:radial-gradient(circle,rgba(207,234,235,1) 0%,rgba(246,231,199,1) 100%);color:", ";"], function (props) {
   return props.theme.black;
 });
 var Inner = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Page__Inner",
-  componentId: "sc-4u7a64-1"
+  componentId: "euphdo-1"
 })(["max-width:", ";margin:0 auto;padding:2rem;"], function (props) {
   return props.theme.maxWidth;
 });
@@ -524,8 +524,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.ul.withConfig({
   displayName: "NavStyles",
-  componentId: "sc-11c0d2g-0"
-})(["margin:0;padding:0;display:flex;justify-self:end;font-size:2rem;a,button{padding:1rem 3rem;display:flex;align-items:center;position:relative;text-transform:uppercase;font-weight:900;font-size:1em;background:none;border:0;cursor:pointer;@media (max-width:700px){font-size:10px;padding:0 10px;}&:before{content:'';width:2px;background:", ";height:100%;left:0;position:absolute;transform:skew(-20deg);top:0;bottom:0;}&:after{height:2px;background:red;content:'';width:0;position:absolute;transform:translateX(-50%);transition:width 0.4s;transition-timing-function:cubic-bezier(1,-0.65,0,2.31);left:50%;margin-top:2rem;}&:hover,&:focus{outline:none;&:after{width:calc(100% - 60px);}@media (max-width:700px){width:calc(100% - 10px);}}}@media (max-width:1300px){border-top:1px solid ", ";width:100%;justify-content:center;font-size:1.5rem;}"], function (props) {
+  componentId: "tkb3fa-0"
+})(["margin:0;padding:0;display:flex;justify-self:end;font-size:2rem;a,button{padding:1rem 3rem;display:flex;align-items:center;position:relative;font-weight:700;font-size:1em;background:none;border:0;cursor:pointer;@media (max-width:700px){font-size:10px;padding:0 10px;}&:before{content:'';width:2px;height:100%;left:0;position:absolute;top:0;bottom:0;}&:after{height:2px;background:", ";content:'';width:0;position:absolute;transform:translateX(-50%);transition:width 0.4s;transition-timing-function:cubic-bezier(1,-0.65,0,2.31);left:50%;margin-top:2rem;}&:hover,&:focus{outline:none;&:after{width:calc(100% - 60px);}@media (max-width:700px){width:calc(100% - 10px);}}}@media (max-width:1300px){border-top:1px solid ", ";width:100%;justify-content:center;font-size:1.5rem;}"], function (props) {
   return props.theme.lightgrey;
 }, function (props) {
   return props.theme.lightgrey;
@@ -547,7 +547,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "perPage", function() { return perPage; });
 // This is client side config only - don't put anything in here that shouldn't be public!
 var endpoint = "http://localhost:4444";
-var perPage = 4;
+var perPage = 2;
 
 /***/ }),
 

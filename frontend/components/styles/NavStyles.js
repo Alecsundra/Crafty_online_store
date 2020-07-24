@@ -12,8 +12,8 @@ const NavStyles = styled.ul`
     display: flex;
     align-items: center;
     position: relative;
-    text-transform: uppercase;
-    font-weight: 900;
+    /* text-transform: uppercase; */
+    font-weight: 700;
     font-size: 1em;
     background: none;
     border: 0;
@@ -25,17 +25,17 @@ const NavStyles = styled.ul`
     &:before {
       content: '';
       width: 2px;
-      background: ${props => props.theme.lightgrey};
+      /* background: ${props => props.theme.lightgrey}; */
       height: 100%;
       left: 0;
       position: absolute;
-      transform: skew(-20deg);
+      /* transform: skew(-20deg); */
       top: 0;
       bottom: 0;
     }
     &:after {
       height: 2px;
-      background: red;
+      background: ${props => props.theme.lightgrey};
       content: '';
       width: 0;
       position: absolute;

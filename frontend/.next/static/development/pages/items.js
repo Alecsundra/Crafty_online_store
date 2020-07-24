@@ -679,9 +679,7 @@ __webpack_require__.r(__webpack_exports__);
 var PriceTag = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].span.withConfig({
   displayName: "PriceTag",
   componentId: "fl87w2-0"
-})(["background:", ";transform:rotate(3deg);color:white;font-weight:600;padding:5px;line-height:1;font-size:3rem;display:inline-block;position:absolute;top:-3px;right:-3px;"], function (props) {
-  return props.theme.red;
-});
+})(["background:rgb(228,154,164);background:radial-gradient(circle,rgba(228,154,164,1) 0%,rgba(246,88,136,1) 53%,rgba(255,0,56,1) 100%);transform:rotate(3deg);color:white;font-weight:600;padding:10px;line-height:1;font-size:3rem;display:inline-block;position:absolute;top:-3px;right:-3px;border-radius:50%;text-shadow:4px 4px 0 rgba(0,0,0,0.3);"]);
 /* harmony default export */ __webpack_exports__["default"] = (PriceTag);
 
 /***/ }),
@@ -700,9 +698,7 @@ __webpack_require__.r(__webpack_exports__);
 var Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h3.withConfig({
   displayName: "Title",
   componentId: "sc-1s2gf96-0"
-})(["margin:0 1rem;text-align:center;transform:skew(-5deg) rotate(-1deg);margin-top:-3rem;text-shadow:2px 2px 0 rgba(0,0,0,0.1);a{background:", ";display:inline;line-height:1.3;font-size:4rem;text-align:center;color:white;padding:0 1rem;}"], function (props) {
-  return props.theme.red;
-});
+})(["margin:0 1rem;text-align:center;margin-top:-3rem;text-shadow:4px 4px 0 rgba(0,0,0,0.2);a{background:rgb(228,154,164);background:radial-gradient(circle,rgba(228,154,164,1) 0%,rgba(246,88,136,1) 53%,rgba(255,0,56,1) 100%);display:inline;line-height:1.3;font-size:4rem;text-align:center;font-weight:100;color:white;padding:0 1rem;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (Title);
 
 /***/ }),
@@ -720,7 +716,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "perPage", function() { return perPage; });
 // This is client side config only - don't put anything in here that shouldn't be public!
 var endpoint = "http://localhost:4444";
-var perPage = 4;
+var perPage = 2;
 
 /***/ }),
 
@@ -29867,7 +29863,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/items.js ***!
   \******************************/
@@ -29892,5 +29888,5 @@ module.exports = dll_18682c416555df0bf0b9;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=items.js.map
